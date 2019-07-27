@@ -59,7 +59,7 @@ int main(int argc, char** argv)
     for (auto& pair:prefixCodeTable)
     {
         cout << ((pair.first == ' ') ? "space" : string(1, pair.first))
-             << ": " << pair.second << endl;
+             << " " << pair.second << endl;
     }
     cout << "----------------------------------------" << endl;
 
